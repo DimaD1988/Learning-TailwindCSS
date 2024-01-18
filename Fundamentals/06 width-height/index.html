@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Width and Height</title>
+	</head>
+	<body>
+		<div class="bg-red-700">
+			<h2 class="text-white">FIXED WIDTH</h2>
+			<div class="w-20 bg-orange-700 text-white">Fixed width</div>
+			<div class="w-40 bg-orange-700 text-white">Fixed width</div>
+			<div class="w-60 bg-orange-700 text-white">Fixed width</div>
+			<div class="w-80 bg-orange-700 text-white">Fixed width</div>
+		</div>
+		<div class="bg-yellow-700">
+			<h2 class="text-white">FIXED WIDTH</h2>
+			<h2 class="text-white">PERCENTAGE WIDTH</h2>
+			<div class="w-1/4 bg-orange-700 text-white">Percentage width</div>
+			<div class="w-1/2 bg-orange-700 text-white">Percentage width</div>
+			<div class="w-3/4 bg-orange-700 text-white">Percentage width</div>
+			<div class="w-full bg-orange-700 text-white">Percentage width</div>
+		</div>
+		<div class="bg-cyan-700">
+			<h2 class="text-white">VIEWPORT WIDTH</h2>
+			<div class="bg-slate-700 w-screen text-white">Viewport width</div>
+		</div>
+		<div class="bg-green-700">
+			<h2 class="text-white">CONTAINER WIDTH</h2>
+			<div class="bg-yellow-700 w-1/2 p-4">
+				<div class="bg-red-700 w-full">Container</div>
+			</div>
+		</div>
+		<div class="bg-blue-700">
+			<h2 class="text-white">MAX WIDTH</h2>
+			<div class="bg-orange-700 text-white">Max width</div>
+		</div>
+	</body>
+</html>
