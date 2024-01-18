@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Layout position</title>
+	</head>
+	<body>
+		<div class="relative w-1/2 h-12 bg-red-200">
+			<p>Parent Element</p>
+			<div class="absolute bottom-0 right-0 bg-red-500">Child Element</div>
+		</div>
+		<div class="relative h-48 w-48 bg-yellow-100">
+			<div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+			<div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+			<div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+			<div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+		</div>
+		<div class="relative h-32 w-48 bg-yellow-100 mt-4">
+			<div class="absolute inset-x-0 top-0 h-12 bg-yellow-300"></div>
+		</div>
+		<div class="relative h36">
+			<div class="absolute left-8 w-24 h-24 bg-blue-300 z-10">1</div>
+			<div class="absolute left-16 w-24 h-24 bg-blue-400 z-20">2</div>
+			<div class="absolute left-24 w-24 h-24 bg-blue-500 z-30">3</div>
+			<div class="absolute left-32 w-24 h-24 bg-blue-600 z-40">4</div>
+			<div class="absolute left-40 w-24 h-24 bg-blue-700 z-50">5</div>
+		</div>
+	</body>
+</html>
