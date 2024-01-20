@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Hover</title>
+	</head>
+	<body class="m-20">
+		<button
+			class="outline outline-2 outline-green-700 px-4 py-2 rounded-lg hover:bg-red-700 hover:text-white"
+		>
+			Hover
+		</button>
+		<div
+			class="p-10 shadow-xl w-1/2 mt-10 hover:bg-green-300 hover:shadow-none"
+		>
+			<h2 class="font-bold">This is heading</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et
+				suscipit expedita eveniet totam ullam voluptatum autem non quod
+				molestias eligendi, sint aperiam quo, placeat inventore laborum!
+				Perspiciatis, perferendis modi?
+			</p>
+		</div>
+		<div
+			class="group p-10 shadow-xl w-1/2 mt-10 hover:bg-green-300 hover:shadow-none"
+		>
+			<h2 class="group-hover:text-white font-bold">This is heading</h2>
+			<p class="group-hover:text-white">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et
+				suscipit expedita eveniet totam ullam voluptatum autem non quod
+				molestias eligendi, sint aperiam quo, placeat inventore laborum!
+				Perspiciatis, perferendis modi?
+			</p>
+		</div>
+		<p class="mt-10 select-none">
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero
+			voluptates odit consequuntur illo ipsum dicta ratione iure, mollitia
+			dolore exercitationem unde omnis ducimus eum reprehenderit quae nobis
+			expedita pariatur?
+		</p>
+		<p class="my-10 select-all">
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla vero
+			voluptates odit consequuntur illo ipsum dicta ratione iure, mollitia
+			dolore exercitationem unde omnis ducimus eum reprehenderit quae nobis
+			expedita pariatur?
+		</p>
+		<button
+			class="px-10 py-4 bg-red-700 text-white rounded-xl cursor-not-allowed"
+		>
+			Hover
+		</button>
+		<button
+			class="px-10 py-4 bg-blue-700 text-white rounded-xl cursor-progress"
+		>
+			Loading...
+		</button>
+		<p class="hover:cursor-pointer">Hover over this</p>
+	</body>
+</html>
